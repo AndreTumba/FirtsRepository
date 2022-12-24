@@ -30,7 +30,8 @@ Titular: {self.__titular}""")
 
     def transferir(self, valor, destinatario):
         if valor > self.__saldo:
-            print(f"Erro, limite ultrapassado, valor disponivel: {self.__saldo}")
+            print(f"Erro, limite ultrapassado, valor disponível: {self.__saldo}")
+            print(f"Erro, limite ultrapassado, valor disponível: {self.__saldo}")
         else:
             self.saque(valor)
             destinatario.deposita(valor)
